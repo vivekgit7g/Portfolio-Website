@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UV-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/70f3abeeb6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="file:///home/vivek/Desktop/images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#Experties">Experties</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Developer Engineer</p>
+                    <h1>Hi, I'm <span>Vivek Kumar</span> From India</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------------------portfolio------------------------------ -->
+
+        <div id="Portfolio">
+            <div class="container">
+                <div class="row">
+                  <div class="Portfolio-col-1">
+                    <img src="file:///home/vivek/Desktop/images/background.png">
+                  </div> 
+                  <div class="Portfolio-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have good programming skills in c++, Data Structure & Algorithms, Oops Concept in C++, 
+                        strong problem solving skills and good knowledge about computer fundamentals like DBMS, Computer Network, Operating System, Network Security Cryptography & Cloud Computing also.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+    
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>B.Tech in Computer Science & Engineering(2019 - 2023)</span><br>SVIET Chandigarh</li>
+                            </ul>
+                        </div>
+    
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Currently I'm in CSE Undergrad Student</span><br>Fresher</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Achievements">
+                            <ul>
+
+                            </ul>
+                        </div>
+    
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>I'm a Good Programmer</span><br>Good Knowledge About C++ / Java / Python / Data Structure & Algorithms / Oops Concepts In C++ / System Design</li>
+                                <li><span>Web Development</span><br>Frontend Developer / Backend Developer / Full Stack Developer</li>
+                                <li><span>Android Development</span><br>Android App Developer / Application Developer / IOS Developer</li>
+                            </ul>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------experties------------------------ -->
+        <div id="Experties">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="file:///home/vivek/Desktop/images/becoming-a-web-developer-in-2016-3439097627.jpeg">
+                        <div class="layer">
+                            <h3>Personal portfolio Website</h3>
+                            <p>I have made a Project as a portfolio Website. Which is very responsive.
+                                In which only these three major HTML, CSS & JAVA SCRIPT is used in it.
+                            </p>
+                            <a href="file:///home/vivek/Desktop/codetest/portfolio%20project_1/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="file:///home/vivek/Desktop/images/ba0eb82dbe74fb21925083c2ea7475b4-1408434084.jpeg">
+                        <div class="layer">
+                            <h3></h3>
+                            <p></p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="file:///home/vivek/Desktop/images/th-3398033190.jpeg">
+                        <div class="layer">
+                            <h3></h3>
+                            <p></p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ----------------------services-------------------------- -->
+
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-title">Services</h1>
+                <div class="Experties-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Android Development</h2>
+                        <p>Android is an operating system that is built basically for Mobile phones. It is based on the Linux Kernel and other open-source software and is developed by Google. It is used for touchscreen mobile devices such as smartphones and tablets.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-hackerrank"></i>
+                        <h2>Software Development</h2>
+                        <p>Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ------------------------------------contacts------------------------ -->
+
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="container-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>selfvivekk98@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91-9199862856</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/vivek-kumar-4b875b222/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100015023432673"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/imvivekk_10/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="file:///home/vivek/Desktop/images/ResumeFor_Jio.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="container-right"></div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ vivek. made with <i class="fa-solid fa-heart"></i> by self learner</p>
+            </div>
+        </div>
+<!-- ------------------------------script----------------------------- -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classLink.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxH5onnNA4M3p2YSAOqYfqXYg9_C29mlx-lKpWOIuzEuuKh7iI-Q41z6So2jRCIWxda/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
